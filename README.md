@@ -1,1 +1,1 @@
-# thinkster-mean
+# thinkster-mean / Flapper News
