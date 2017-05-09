@@ -10,6 +10,13 @@ app.controller('MainCtrl', [
       $scope.posts.push({title: $scope.title, upvotes: 0});
       $scope.title = '';
     };
+
+    $scope.incrementUpvotes = post =>
+      post.upvotes += 1;
+
+    $scope.decrementUpvotes = post =>
+      post.upvotes -= 1;
+
     $scope.posts = [
       {title: 'post 1', upvotes: 4},
       {title: 'post 2', upvotes: 2},
